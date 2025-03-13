@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: Inter, Arial, serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    width: 360px;
+    margin: 0 auto;
+    padding: 16px 21px;
+    background-color: #000;
+}
+
+.header__logo-image {
+    width: 78.45px;
+    height: 15.43px;
+    margin: -1px -1px;
+}
+
+.header__menu {
+    margin-left: auto;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+    list-style: none;
+}
+
+.header__menu-item_active a {
+    text-decoration: none;;
+}
+
+.header__menu-item-second {
+    margin: 1px 1px;
+}
+
+.header__menu-link {
+    color: #f5f5f5;
+    font-weight: normal;
+}
+
+.main {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    background-image: url(../images/cover.svg);
+    background-size: 94%;
+    background-repeat: no-repeat;
+    background-position: 21px 38px;
+    padding: 15px 18px 35px 20px;
+}
+
+.cover__title {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 100%;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    align-self: center;
+}
+
+.text-right {
+    align-self: flex-end;
+    padding: 0px 7px;
+}
+
+.cover__title-first {
+    align-self: flex-start;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 0 20px;
+    background-color: #000;
+    padding-bottom: 39px;;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    color:#ccc;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: normal;
+}
+
+.intro__title {
+    font-weight: normal;
+    font-size: 16px;    
+}
+
+.intro__date {
+    white-space: nowrap;
+}
+
+.intro__main-text {
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.reasons {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    background-color: #fee42a;
+    padding: 40px 20px;
+}
+
+.content-section__subtitle {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 115%;
+}
+
+.reasons .accent-span {
+    text-align: end;
+}
+
+.reasons__text-left {
+    padding: 0 0 1px 0;
+}
+
+.reasons__text-right {
+    margin: 1px -3px; 
+    padding: 0 1px 1px 1px;
+}
+
+.content-section__introduction {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.reasons__introduction {
+    margin: -3px 0px 0px 0px;
+}
+
+.content-section__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 3px 0 14px;
+    font-weight: bold;
+}
+
+.content-section__list-item {
+    font-size: 16px;    
+    color: #131313;
+    font-weight: normal;
+    line-height: 21.6px;
+}
+
+.content-section__list-accent {
+    font-weight: bold;
+}
+
+.how-to {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    gap: 32px;
+    padding: 40px 20px 59px 20px;
+    color: #fff;
+}
+
+.how-to .accent-span {
+    text-align: end;
+}
+
+.how-to .text-right {
+    padding: 0;
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 32px;
+}
+
+.card {
+    border-radius: 30px;
+    padding: 17px 20px 20px;
+}
+
+.card_theme_dark {
+    background-color: #343434;
+    color: #f5f5f5;
+}
+
+.card_theme_bright {
+    background-color: #fee42a;
+    color: #131313;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.card__content-first {
+    padding: 0 1px 0 0;
+}
+
+.card__author-photo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+.card__author-name {
+    font-weight: bold;
+    line-height: 135%;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    line-height: 21.6px;
+}
+
+.card__title {
+    font-size: 22px;
+    line-height: 135%;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+    width: 360px;
+    background-color: #000;
+    color: #f5f5f5;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 1px solid #fee42a;
+}
+
+.footer__links {
+    font-size: 14px;
+    line-height: 125%;
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.footer__links a {
+    color: #fff;
+    text-decoration: none;
+}
