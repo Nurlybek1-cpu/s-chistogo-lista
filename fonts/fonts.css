@@ -2,6 +2,7 @@
 
 @font-face {
     font-family: 'EB Garamond';
+    font-display: swap;
     src: local('EB Garamond'),
          local('eb garamond'),
          local('EB-Garamond'),
@@ -14,6 +15,7 @@
 
 @font-face {
     font-family: 'EB Garamond';
+    font-display: swap;
     src: local('EB Garamond'),
          local('eb garamond'),
          local('EB-Garamond'),
@@ -26,6 +28,7 @@
 
 @font-face {
     font-family: Inter;
+    font-display: swap;
     src: local('Inter'),
          local('inter'),
          url(interregular.woff2) format('woff2'),
@@ -36,6 +39,7 @@
 
 @font-face {
     font-family: Inter;
+    font-display: swap;
     src: local('Inter'),
          local('inter'),
          url(interbold.woff2) format('woff2'),

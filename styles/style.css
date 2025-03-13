@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     text-decoration: none;;
 }
 
+.header__menu-item-second {
+    margin: 1px 1px;
+}
+
 .header__menu-link {
     color: #f5f5f5;
     font-weight: normal;
@@ -142,9 +146,22 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     text-align: end;
 }
 
+.reasons__text-left {
+    padding: 0 0 1px 0;
+}
+
+.reasons__text-right {
+    margin: 1px -3px; 
+    padding: 0 1px 1px 1px;
+}
+
 .content-section__introduction {
     font-size: 20px;
     line-height: 27px;
+}
+
+.reasons__introduction {
+    margin: -3px 0px 0px 0px;
 }
 
 .content-section__list {
@@ -171,8 +188,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     flex-direction: column;
     background-color: #000;
     gap: 32px;
-    padding: 40px 20px 16px;
-    min-height: 1850px;
+    padding: 40px 20px 59px 20px;
     color: #fff;
 }
 
@@ -211,6 +227,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     flex-direction: column;
     gap: 8px;
     font-size: 16px;
+}
+
+.card__content-first {
+    padding: 0 1px 0 0;
 }
 
 .card__author-photo {
